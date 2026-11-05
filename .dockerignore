@@ -1,0 +1,6 @@
+# В контекст сборки допускаются только исходник и Dockerfile.
+# Исключены .git, __pycache__, .env, токены, отчёты и скриншоты.
+*
+!app.py
+!Dockerfile
+!.dockerignore
